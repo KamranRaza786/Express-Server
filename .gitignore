@@ -1,7 +1,4 @@
 node_modules
-servintg.txt
 package.json
 package-lock.json
-.gitignore
-.gcloudignore
 learning
