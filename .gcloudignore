@@ -1,0 +1,4 @@
+.gcloudignore
+README.md
+package.json
+node_modules
