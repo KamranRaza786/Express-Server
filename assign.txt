@@ -1,0 +1,46 @@
+Name	Link
+Shehzad	        https://github.com/shehza-d/weather-html
+Ahmed Raza	    https://github.com/AhmedRazaShaikh0/Weather-App
+Muhammad Atif	https://www.linkedin.com/posts/atifwebdev_weather-app-activity-7083817751198220288-iWPu
+zafir	        https://zafir547.github.io/Weather-App/
+salmanshamsi	https://salmanshamsi.github.io/Weather-app-ai-Chatbot-assignment/
+hasnain	        https://hasnainhsa.github.io/weather-app/
+sufyan-ahmed	https://www.linkedin.com/posts/sufyan-ahmed_weatherapp-webdevelopment-codingjourney-activity-7084025656350511104-cYBP
+Wasif Raza	    https://wasif-web.github.io/weatherapp/
+Kamran raza	    https://kamranraza786.github.io/WeatherApp/
+Aamir	        https://aamirnakhwa.github.io/chatbot-class-assignment5/
+Faizan  	    https://faizan-ul-hasnain59.github.io/Weather-app/
+Anas ali	    https://www.linkedin.com/feed/update/urn:li:activity:7083896622312493056/
+Hasnain	        https://mahasnain.github.io/Weather-APP/
+Shaheer shahzad	https://shaheershahzadofficial.github.io/weatherApp-In-JS/
+Anas irfan	    https://anasirfan123.github.io/weather/
+Larib	        https://github.com/laraib-Merchant/Weather-App
+Umar wahid	    https://github.com/umarwahid/Weather-App
+A Hadi	        https://github.com/A-Hadi20/weather-app.git
+
+learn server code from an expert
+
+server.mjs
+import express from "express";
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get("/", (req, res) => {
+  console.log("🚀 ~ file: server.mjs:7 ~ app.get ~ req:", req);
+  res.send({ message: "Hello World! by Shehzad" });
+});
+
+app.get("/name/:myName", (req, res) => {
+  const name = req.params.myName;
+
+  console.log("🚀 ~ file: server.mjs:13 ~ app.get ~ name:", name);
+
+  res.send({ message: `Hello World! by ${name}` });
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
+
+Api = apliation programing interface
